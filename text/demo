@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一诗词·古诗词</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <span class="logo">詩 一诗词</span>
+      <span class="subtitle">· 古诗词</span>
+      <nav>
+        <ul>
+          <li><a href="#">诗人</a></li>
+          <li><a href="#">名句</a></li>
+          <li><a href="#">字典</a></li>
+          <li><a href="#">词典</a></li>
+          <li><a href="#">单词</a></li>
+          <li><a href="#">成语</a></li>
+          <li><a href="#">造句</a></li>
+          <li><a href="#">名言</a></li>
+          <li><a href="#">诗词</a></li>
+          <li><a href="#">古籍</a></li>
+          <li><a href="#">小说</a></li>
+          <li><a href="#">我的</a></li>
+          <li class="menu-icon"><a href="#">☰</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>古诗词在线查询</h1>
+    <div class="search-box">
+      <select name="search-type" id="search-type">
+        <option value="古诗">古诗</option>
+        <option value="词人">词人</option>
+      </select>
+      <input type="text" placeholder="请输入古诗名，如：将进酒">
+      <button class="search-btn">查询</button>
+    </div>
+    <div class="category-tabs">
+      <button class="tab-btn active">汉语词典</button>
+      <button class="tab-btn">成语大全</button>
+      <button class="tab-btn">古诗词</button>
+      <button class="tab-btn">词语造句</button>
+      <button class="tab-btn">汉语字典</button>
+      <button class="tab-btn">英语单词</button>
+    </div>
+    <p class="description">一诗词网收录经典古诗词原文及翻译、注释、赏析。包括小学、初中、高中古诗大全、唐诗、宋词、元曲三百首、以及经典名诗名句、古诗分类、诗词名句等古诗大全查询。</p>
+    <div class="poetry-types">
+      <button class="type-btn">宋词三百首</button>
+      <button class="type-btn">唐诗三百首</button>
+      <button class="type-btn">古诗三百首</button>
+      <button class="type-btn">古文观止</button>
+      <button class="type-btn">宋词精选</button>
+      <button class="type-btn">乐府</button>
+      <button class="type-btn">诗经</button>
+      <button class="type-btn">初中古诗</button>
+      <button class="type-btn">小学古诗</button>
+      <button class="type-btn">楚辞</button>
+      <button class="type-btn">高中古诗</button>
+      <button class="type-btn">古诗十九首</button>
+    </div>
+    <section class="today-recommend">
+      <h2>今日推荐</h2>
+      <button class="change-group">换一组</button>
+      <div class="recommend-list">
+        <div class="poetry-card">
+          <h3>西洲曲</h3>
+          <p>两汉：佚名</p>
+          <p>忆梅下西洲，折梅寄江北。</p>
+          <p>单衫杏子红，双鬓鸦雏色。</p>
+        </div>
+        <div class="poetry-card">
+          <h3>望天门山</h3>
+          <p>唐代：李白</p>
+          <p>天门中断楚江开，碧水东流至此回。</p>
+          <p>两岸青山相对出，孤帆一片日边来。</p>
+        </div>
+        <div class="poetry-card">
+          <h3>行路难·其一</h3>
+          <p>唐代：李白</p>
+          <p>金樽清酒斗十千，玉盘珍羞直万钱。(羞 通：馐；直通：值)</p>
+          <p>停杯投箸不能食，拔剑四顾心茫然。</p>
+        </div>
+        <div class="poetry-card">
+          <h3>乡村四月</h3>
+          <p>宋代：翁卷</p>
+          <p>绿遍山原白满川，子规声里雨如烟。</p>
+          <p>乡村四月闲人少，才了蚕桑又插田。</p>
+        </div>
+      </div>
+    </section>
+    <section class="dynasties">
+      <h2>历代诗人</h2>
+      <div class="dynasty-btns">
+        <button class="dynasty-btn">先秦</button>
+        <button class="dynasty-btn">两汉</button>
+        <button class="dynasty-btn">魏晋</button>
+        <button class="dynasty-btn">南北朝</button>
+        <button class="dynasty-btn">隋代</button>
+        <button class="dynasty-btn">唐代</button>
+        <button class="dynasty-btn">五代</button>
+        <button class="dynasty-btn">宋代</button>
+        <button class="dynasty-btn">金朝</button>
+        <button class="dynasty-btn">元代</button>
+        <button class="dynasty-btn">明代</button>
+        <button class="dynasty-btn">清代</button>
+        <button class="dynasty-btn">近现代</button>
+      </div>
+    </section>
+    <section class="poetry-tags">
+      <h2>古诗</h2>
+      <div class="tag-btns">
+        <button class="tag-btn">七夕</button>
+        <button class="tag-btn">冬天</button>
+        <button class="tag-btn">田园</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
