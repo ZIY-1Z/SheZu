@@ -9,3 +9,8 @@ git push -u origin main # 推送到远程分支 main 为分支名
 git pull # 从远程仓库拉取最新代码
 ```
 
+## Notes
+
+### 2025-10-18 新分支server
+
+该分支用于服务器部署
