@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .container {
-  background-color: white;
+  background-color: rgb(250, 241, 241);
   padding: 20px;
   margin: 20px auto;
   max-width: 1200px;
