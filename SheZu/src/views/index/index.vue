@@ -18,6 +18,7 @@
                 <li><a href="/history">{{ $t('common.nav.history') }}</a></li>
                 <li><a href="/art">{{ $t('common.nav.art') }}</a></li>
                 <li><a href="/aboutUs">{{ $t('common.nav.aboutUs') }}</a></li>
+                <li><a href="/document">{{ $t('common.nav.document') }}</a></li>
             </ul>
         </div>
 

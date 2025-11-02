@@ -6,6 +6,7 @@
       <router-link to="/history" class="nav-item">{{ $t('common.nav.history') }}</router-link>
       <router-link to="/art" class="nav-item">{{ $t('common.nav.art') }}</router-link>
       <router-link to="/about" class="nav-item">{{ $t('common.nav.aboutUs') }}</router-link>
+      <router-link to="/document" class="nav-item">{{ $t('common.nav.document') }}</router-link>
       
       <!-- 语言切换按钮 -->
       <div class="lang-switcher">

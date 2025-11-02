@@ -4,6 +4,7 @@ import Resource from '@/views/resource/resource.vue'
 import Art from '@/views/art/art.vue'
 import History from '@/views/history/history.vue'
 import AboutUs from '@/views/aboutUs/aboutUs.vue'
+import Document from '@/views/document/document.vue'
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: '/about',
         name: 'AboutUs',
         component: AboutUs
+    },
+    {
+        path: '/document',
+        name: 'document',
+        component: Document
     }
 ]
 
